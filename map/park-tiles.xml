@@ -1,0 +1,520 @@
+<?xml version="1.0"?>
+<resource>
+	<imageatlas size="32x32" file="tile_map.png">
+		<image id="i-urna" offset="0,0" />
+		
+		<image id="i-st_tr" offset="32,0" />
+		<image id="i-st_br" offset="32,128" />
+		<image id="i-st_lb" offset="160,128" />
+		<image id="i-st_lt" offset="160,0" />
+		
+		<image id="i-fen_rlt1" offset="64,0" />
+		<image id="i-fen_rlt2" offset="96,0" />
+		<image id="i-fen_rlt3" offset="128,0" />
+		
+		<image id="i-fen_tbr1" offset="32,32" />
+		<image id="i-fen_tbr2" offset="32,64" />
+		<image id="i-fen_tbr3" offset="32,96" />
+		
+		<image id="i-fen_rlb1" offset="64,128" />
+		<image id="i-fen_rlb2" offset="96,128" />
+		<image id="i-fen_rlb3" offset="128,128" />
+		
+		<image id="i-fen_btl1" offset="160,96" />
+		<image id="i-fen_btl2" offset="160,64" />
+		<image id="i-fen_btl3" offset="160,32" />
+		
+		<!--elka1-->
+		<image id="i-el1_c11" offset="0,160" />
+		<image id="i-el1_c12" offset="0,192" />
+		<image id="i-el1_c13" offset="0,224" />
+		<image id="i-el1_c14" offset="0,256" />
+		
+		<image id="i-el1_c21" offset="32,160" />
+		<image id="i-el1_c22" offset="32,192" />
+		<image id="i-el1_c23" offset="32,224" />
+		<image id="i-el1_c24" offset="32,256" />
+		
+		<image id="i-el1_c31" offset="64,160" />
+		<image id="i-el1_c32" offset="64,192" />
+		<image id="i-el1_c33" offset="64,224" />
+		<image id="i-el1_c34" offset="64,256" />
+		
+		<image id="i-el1_c41" offset="96,160" />
+		<image id="i-el1_c42" offset="96,192" />
+		<image id="i-el1_c43" offset="96,224" />
+		<image id="i-el1_c44" offset="96,256" />
+		<!--elka2-->
+		<image id="i-el2_c11" offset="64,32" />
+		<image id="i-el2_c12" offset="64,64" />
+		<image id="i-el2_c13" offset="64,96" />
+		
+		<image id="i-el2_c21" offset="96,32" />
+		<image id="i-el2_c22" offset="96,64" />
+		<image id="i-el2_c23" offset="96,96" />
+		
+		<image id="i-el2_c31" offset="128,32" />
+		<image id="i-el2_c32" offset="128,64" />
+		<image id="i-el2_c33" offset="128,96" />
+		<!--elka3-->
+		<image id="i-el3_c11" offset="128,160" />
+		<image id="i-el3_c12" offset="128,192" />
+		
+		<image id="i-el3_c21" offset="160,160" />
+		<image id="i-el3_c22" offset="160,192" />
+		<!--elka4-->
+		<image id="i-el4_c11" offset="0,288" />
+		<image id="i-el4_c12" offset="0,320" />
+		
+		<image id="i-el4_c21" offset="32,288" />
+		<image id="i-el4_c22" offset="32,320" />
+		
+		<!--bench1-->
+		<image id="i-ben1_c11" offset="192,0" />
+		<image id="i-ben1_c12" offset="192,32" />
+		<image id="i-ben1_c13" offset="192,64" />
+		<image id="i-ben1_c14" offset="192,96" />
+		<image id="i-ben1_c15" offset="192,128" />
+		<image id="i-ben1_c16" offset="192,160" />
+		<image id="i-ben1_c17" offset="192,192" />
+		<image id="i-ben1_c18" offset="192,224" />
+		
+		<image id="i-ben1_c21" offset="224,0" />
+		<image id="i-ben1_c22" offset="224,32" />
+		<image id="i-ben1_c23" offset="224,64" />
+		<image id="i-ben1_c24" offset="224,96" />
+		<image id="i-ben1_c25" offset="224,128" />
+		<image id="i-ben1_c26" offset="224,160" />
+		<image id="i-ben1_c27" offset="224,192" />
+		<image id="i-ben1_c28" offset="224,224" />
+		<!--bench2-->
+		<image id="i-ben2_c11" offset="256,0" />
+		<image id="i-ben2_c12" offset="256,32" />
+		<image id="i-ben2_c13" offset="256,64" />
+		<image id="i-ben2_c14" offset="256,96" />
+		<image id="i-ben2_c15" offset="256,128" />
+		<image id="i-ben2_c16" offset="256,160" />
+		<image id="i-ben2_c17" offset="256,192" />
+		<image id="i-ben2_c18" offset="256,224" />
+		
+		<image id="i-ben2_c21" offset="288,0" />
+		<image id="i-ben2_c22" offset="288,32" />
+		<image id="i-ben2_c23" offset="288,64" />
+		<image id="i-ben2_c24" offset="288,96" />
+		<image id="i-ben2_c25" offset="288,128" />
+		<image id="i-ben2_c26" offset="288,160" />
+		<image id="i-ben2_c27" offset="288,192" />
+		<image id="i-ben2_c28" offset="288,224" />
+		
+		<!--fontan-->
+		<image id="i-ft_c11" offset="128,256" />
+		<image id="i-ft_c12" offset="128,288" />
+		<image id="i-ft_c13" offset="128,320" />
+		<image id="i-ft_c14" offset="128,352" />
+		<image id="i-ft_c15" offset="128,384" />
+		
+		<image id="i-ft_c21" offset="160,256" />
+		<image id="i-ft_c22" offset="160,288" />
+		<image id="i-ft_c23" offset="160,320" />
+		<image id="i-ft_c24" offset="160,352" />
+		<image id="i-ft_c25" offset="160,384" />
+		
+		<image id="i-ft_c31" offset="192,256" />
+		<image id="i-ft_c32" offset="192,288" />
+		<image id="i-ft_c33" offset="192,320" />
+		<image id="i-ft_c34" offset="192,352" />
+		<image id="i-ft_c35" offset="192,384" />
+		
+		<image id="i-ft_c41" offset="224,256" />
+		<image id="i-ft_c42" offset="224,288" />
+		<image id="i-ft_c43" offset="224,320" />
+		<image id="i-ft_c44" offset="224,352" />
+		<image id="i-ft_c45" offset="224,384" />
+		
+		<image id="i-ft_c51" offset="256,256" />
+		<image id="i-ft_c52" offset="256,288" />
+		<image id="i-ft_c53" offset="256,320" />
+		<image id="i-ft_c54" offset="256,352" />
+		<image id="i-ft_c55" offset="256,384" />
+		
+		<!--iglu-->
+		<image id="i-igl_c11" offset="320,0" />
+		<image id="i-igl_c12" offset="320,32" />
+		<image id="i-igl_c13" offset="320,64" />
+		<image id="i-igl_c14" offset="320,96" />
+		
+		<image id="i-igl_c21" offset="352,0"  />
+		<image id="i-igl_c22" offset="352,32" />
+		<image id="i-igl_c23" offset="352,64" />
+		<image id="i-igl_c24" offset="352,96" />
+		
+		<image id="i-igl_c31" offset="384,0"  />
+		<image id="i-igl_c32" offset="384,32" />
+		<image id="i-igl_c33" offset="384,64" />
+		<image id="i-igl_c34" offset="384,96" />
+		
+		<image id="i-igl_c41" offset="416,0"  />
+		<image id="i-igl_c42" offset="416,32" />
+		<image id="i-igl_c43" offset="416,64" />
+		<image id="i-igl_c44" offset="416,96" />
+		
+	</imageatlas>
+	<tileset>
+		<tile id="urna"><image ref="i-urna" />
+			<property name="top" type="bool" value="True" />
+			<property name="bottom" type="bool" value="True" />
+			<property name="left" type="bool" value="True" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		
+		<!--stake-->
+		<tile id="st_tr"><image ref="i-st_tr" />
+			<property name="top" type="bool" value="True" />
+			<property name="bottom" type="bool" value="True" />
+			<property name="left" type="bool" value="True" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="st_br"><image ref="i-st_br" />
+			<property name="top" type="bool" value="True" />
+			<property name="bottom" type="bool" value="True" />
+			<property name="left" type="bool" value="True" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="st_lb"><image ref="i-st_lb" />
+			<property name="top" type="bool" value="True" />
+			<property name="bottom" type="bool" value="True" />
+			<property name="left" type="bool" value="True" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="st_lt"><image ref="i-st_lt" />
+			<property name="top" type="bool" value="True" />
+			<property name="bottom" type="bool" value="True" />
+			<property name="left" type="bool" value="True" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		
+		<!--fence-->
+		<tile id="fen_rlt1"><image ref="i-fen_rlt1" />
+			<property name="top" type="bool" value="True" />
+			<property name="bottom" type="bool" value="True" />
+		</tile>
+		<tile id="fen_rlt2"><image ref="i-fen_rlt2" />
+			<property name="top" type="bool" value="True" />
+			<property name="bottom" type="bool" value="True" />
+		</tile>
+		<tile id="fen_rlt3"><image ref="i-fen_rlt3" />
+			<property name="top" type="bool" value="True" />
+			<property name="bottom" type="bool" value="True" />
+		</tile>
+		
+		<tile id="fen_tbr1"><image ref="i-fen_tbr1" />
+			<property name="right" type="bool" value="True" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="fen_tbr2"><image ref="i-fen_tbr2" />
+			<property name="right" type="bool" value="True" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="fen_tbr3"><image ref="i-fen_tbr3" />
+			<property name="right" type="bool" value="True" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		
+		<tile id="fen_rlb1"><image ref="i-fen_rlb1" />
+			<property name="bottom" type="bool" value="True" />
+			<property name="top" type="bool" value="True" />
+		</tile>
+		<tile id="fen_rlb2"><image ref="i-fen_rlb2" />
+			<property name="bottom" type="bool" value="True" />
+			<property name="top" type="bool" value="True" />
+		</tile>
+		<tile id="fen_rlb3"><image ref="i-fen_rlb3" />
+			<property name="bottom" type="bool" value="True" />
+			<property name="top" type="bool" value="True" />
+		</tile>
+		
+		<tile id="fen_btl1"><image ref="i-fen_btl1" />
+			<property name="left" type="bool" value="True" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="fen_btl2"><image ref="i-fen_btl2" />
+			<property name="left" type="bool" value="True" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="fen_btl3"><image ref="i-fen_btl3" />
+			<property name="left" type="bool" value="True" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		
+		<!--elka1-->
+		<tile id="el1_c11"><image ref="i-el1_c11" /></tile>
+		<tile id="el1_c12"><image ref="i-el1_c12" /></tile>
+		<tile id="el1_c13"><image ref="i-el1_c13" /></tile>
+		<tile id="el1_c14"><image ref="i-el1_c14" /></tile>
+		
+		<tile id="el1_c21"><image ref="i-el1_c21" /></tile>
+		<tile id="el1_c22"><image ref="i-el1_c22" /></tile>
+		<tile id="el1_c23"><image ref="i-el1_c23" /></tile>
+		<tile id="el1_c24"><image ref="i-el1_c24" /></tile>
+		
+		<tile id="el1_c31"><image ref="i-el1_c31" /></tile>
+		<tile id="el1_c32"><image ref="i-el1_c32" /></tile>
+		<tile id="el1_c33"><image ref="i-el1_c33" /></tile>
+		<tile id="el1_c34"><image ref="i-el1_c34" /></tile>
+		
+		<tile id="el1_c41"><image ref="i-el1_c41" /></tile>
+		<tile id="el1_c42"><image ref="i-el1_c42" /></tile>
+		<tile id="el1_c43"><image ref="i-el1_c43" /></tile>
+		<tile id="el1_c44"><image ref="i-el1_c44" /></tile>
+		<!--elka2-->
+		<tile id="el2_c11"><image ref="i-el2_c11" /></tile>
+		<tile id="el2_c12"><image ref="i-el2_c12" /></tile>
+		<tile id="el2_c13"><image ref="i-el2_c13" /></tile>
+		
+		<tile id="el2_c21"><image ref="i-el2_c21" /></tile>
+		<tile id="el2_c22"><image ref="i-el2_c22" /></tile>
+		<tile id="el2_c23"><image ref="i-el2_c23" /></tile>
+		
+		<tile id="el2_c31"><image ref="i-el2_c31" /></tile>
+		<tile id="el2_c32"><image ref="i-el2_c32" /></tile>
+		<tile id="el2_c33"><image ref="i-el2_c33" /></tile>
+		<!--elka3-->
+		<tile id="el3_c11"><image ref="i-el3_c11" /></tile>
+		<tile id="el3_c12"><image ref="i-el3_c12" /></tile>
+		
+		<tile id="el3_c21"><image ref="i-el3_c21" /></tile>
+		<tile id="el3_c22"><image ref="i-el3_c22" /></tile>
+		<!--elka4-->
+		<tile id="el4_c11"><image ref="i-el4_c11" /></tile>
+		<tile id="el4_c12"><image ref="i-el4_c12" /></tile>
+		
+		<tile id="el4_c21"><image ref="i-el4_c21" /></tile>
+		<tile id="el4_c22"><image ref="i-el4_c22" /></tile>
+		
+		<!--bench1-->
+		<tile id="ben1_c11"><image ref="i-ben1_c11" />
+			<property name="bottom" type="bool" value="True" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ben1_c12"><image ref="i-ben1_c12" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ben1_c13"><image ref="i-ben1_c13" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ben1_c14"><image ref="i-ben1_c14" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ben1_c15"><image ref="i-ben1_c15" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ben1_c16"><image ref="i-ben1_c16" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ben1_c17"><image ref="i-ben1_c17" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ben1_c18"><image ref="i-ben1_c18" />
+			<property name="top" type="bool" value="True" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		
+		<tile id="ben1_c21"><image ref="i-ben1_c21" />
+			<property name="bottom" type="bool" value="True" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ben1_c22"><image ref="i-ben1_c22" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ben1_c23"><image ref="i-ben1_c23" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ben1_c24"><image ref="i-ben1_c24" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ben1_c25"><image ref="i-ben1_c25" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ben1_c26"><image ref="i-ben1_c26" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ben1_c27"><image ref="i-ben1_c27" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ben1_c28"><image ref="i-ben1_c28" />
+			<property name="top" type="bool" value="True" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<!--bench2-->
+		<tile id="ben2_c11"><image ref="i-ben2_c11" />
+			<property name="bottom" type="bool" value="True" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ben2_c12"><image ref="i-ben2_c12" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ben2_c13"><image ref="i-ben2_c13" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ben2_c14"><image ref="i-ben2_c14" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ben2_c15"><image ref="i-ben2_c15" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ben2_c16"><image ref="i-ben2_c16" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ben2_c17"><image ref="i-ben2_c17" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ben2_c18"><image ref="i-ben2_c18" />
+			<property name="top" type="bool" value="True" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		
+		<tile id="ben2_c21"><image ref="i-ben2_c21" />
+			<property name="bottom" type="bool" value="True" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ben2_c22"><image ref="i-ben2_c22" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ben2_c23"><image ref="i-ben2_c23" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ben2_c24"><image ref="i-ben2_c24" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ben2_c25"><image ref="i-ben2_c25" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ben2_c26"><image ref="i-ben2_c26" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ben2_c27"><image ref="i-ben2_c27" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ben2_c28"><image ref="i-ben2_c28" />
+			<property name="top" type="bool" value="True" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		
+		<!--fontan-->
+		<tile id="ft_c11"><image ref="i-ft_c11"/>
+			<property name="left" type="bool" value="True" />
+			<property name="bottom" type="bool" value="True" />
+		</tile>
+		<tile id="ft_c12"><image ref="i-ft_c12"/>
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ft_c13"><image ref="i-ft_c13"/>
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ft_c14"><image ref="i-ft_c14"/>
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="ft_c15"><image ref="i-ft_c15"/>
+			<property name="left" type="bool" value="True" />
+			<property name="top" type="bool" value="True" />
+		</tile>
+		
+		<tile id="ft_c21"><image ref="i-ft_c21"/>
+			<property name="bottom" type="bool" value="True" />
+		</tile>
+		<tile id="ft_c22"><image ref="i-ft_c22"/></tile>
+		<tile id="ft_c23"><image ref="i-ft_c23"/></tile>
+		<tile id="ft_c24"><image ref="i-ft_c24"/></tile>
+		<tile id="ft_c25"><image ref="i-ft_c25"/>
+			<property name="top" type="bool" value="True" />
+		</tile>
+		
+		<tile id="ft_c31"><image ref="i-ft_c31"/>
+			<property name="botom" type="bool" value="True" />
+		</tile>
+		<tile id="ft_c32"><image ref="i-ft_c32"/></tile>
+		<tile id="ft_c33"><image ref="i-ft_c33"/></tile>
+		<tile id="ft_c34"><image ref="i-ft_c34"/></tile>
+		<tile id="ft_c35"><image ref="i-ft_c35"/>
+			<property name="top" type="bool" value="True" />
+		</tile>
+		
+		<tile id="ft_c41"><image ref="i-ft_c41"/>
+			<property name="bottom" type="bool" value="True" />
+		</tile>
+		<tile id="ft_c42"><image ref="i-ft_c42"/></tile>
+		<tile id="ft_c43"><image ref="i-ft_c43"/></tile>
+		<tile id="ft_c44"><image ref="i-ft_c44"/></tile>
+		<tile id="ft_c45"><image ref="i-ft_c45"/>
+			<property name="top" type="bool" value="True" />
+		</tile>
+		
+		<tile id="ft_c51"><image ref="i-ft_c51"/>
+			<property name="bottom" type="bool" value="True" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ft_c52"><image ref="i-ft_c52"/>
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ft_c53"><image ref="i-ft_c53"/>
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ft_c54"><image ref="i-ft_c54"/>
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="ft_c55"><image ref="i-ft_c55"/>
+			<property name="top" type="bool" value="True" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		
+		<!--iglu-->
+		<tile id="igl_c11"><image ref="i-igl_c11" />
+			<property name="left" type="bool" value="True" />
+			<property name="bottom" type="bool" value="True" />
+		</tile>
+		<tile id="igl_c12"><image ref="i-igl_c12" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="igl_c13"><image ref="i-igl_c13" />
+			<property name="left" type="bool" value="True" />
+		</tile>
+		<tile id="igl_c14"><image ref="i-igl_c14" />
+			<property name="left" type="bool" value="True" />
+			<property name="top" type="bool" value="True" />
+		</tile>
+		
+		<tile id="igl_c21"><image ref="i-igl_c21" />
+			<property name="bottom" type="bool" value="True" />
+		</tile>
+		<tile id="igl_c22"><image ref="i-igl_c22" /></tile>
+		<tile id="igl_c23"><image ref="i-igl_c23" /></tile>
+		<tile id="igl_c24"><image ref="i-igl_c24" />
+			<property name="top" type="bool" value="True" />
+		</tile>
+		
+		<tile id="igl_c31"><image ref="i-igl_c31" />
+			<property name="bottom" type="bool" value="True" />
+		</tile>
+		<tile id="igl_c32"><image ref="i-igl_c32" /></tile>
+		<tile id="igl_c33"><image ref="i-igl_c33" /></tile>
+		<tile id="igl_c34"><image ref="i-igl_c34" />
+			<property name="top" type="bool" value="True" />
+		</tile>
+		
+		<tile id="igl_c41"><image ref="i-igl_c41" />
+			<property name="right" type="bool" value="True" />
+			<property name="bottom" type="bool" value="True" />
+		</tile>
+		<tile id="igl_c42"><image ref="i-igl_c42" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="igl_c43"><image ref="i-igl_c43" />
+			<property name="right" type="bool" value="True" />
+		</tile>
+		<tile id="igl_c44"><image ref="i-igl_c44" />
+			<property name="right" type="bool" value="True" />
+			<property name="top" type="bool" value="True" />
+		</tile>
+	
+	</tileset>
+</resource>

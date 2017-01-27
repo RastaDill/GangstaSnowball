@@ -1,0 +1,39 @@
+Gangsta Snowball
+This is a game in the genre of top-down shooter
+
+###### Install ######
+
+1) GNU/Linux:
+  OS ROSA - install package /Linux/gangsta.rpm
+
+  Other OS:
+  a) install the cocos2d engine (available in the repositories OS ROSA)
+  http://python.cocos2d.org/download.html
+  b) to install the library pyglet 1.2 (available in the repositories of all popular distributions)
+  https://bitbucket.org/pyglet/pyglet/wiki/Home
+  b) double clicking the left mouse button to start the file gangsta.py or,
+  by typing in the terminal: python gangsta.py
+
+###### Control ######
+
+The keys W,A,S,D - control protagonist
+R key - reloads current level
+Frequent keystroke E - clears the pass, where there is a slide of snow that allow then to go to the next level.
+!!!For the keypad you have to switch to English layout!!!
+
+The mouse - sight
+Left mouse button - shoot
+
+###### The authors ######
+
+Programmer/ Game designer:
+  Voznesensky (WeedMan) Michael
+Artist:
+  Catherine (Rin) Ladaniuc
+
+Sound:
+  All sounds from the game were taken from the site freesound.org and
+  released under the CC0 1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/)
+
+Font:
+  Used public the font from the website http://www.paratype.ru/public/
